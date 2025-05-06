@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/01Scripts/Editor/SkillPerkEditor.uss?fileID=7433441132597879392&amp;guid=4e10e0a1df8973f48b8eeaeb10e1949b&amp;type=3#SkillPerkEditor" />
+    <engine:VisualElement name="Container" style="flex-grow: 1;">
+        <engine:DropdownField label="Type" name="TypeSelector" binding-path="targetField" />
+        <engine:EnumField label="FieldType" value="Center" type="RPG.SkillSystem.SkillPerkUpgradeSO+UpgradeFieldType, Assembly-CSharp" name="UpgradeFieldType" binding-path="fieldType" />
+        <engine:DropdownField label="UpgradeList" name="UpgradeFieldList" binding-path="selectFieldName" />
+        <engine:IntegerField label="Integer Field" value="42" name="InteagerValue" binding-path="intValue" />
+        <engine:FloatField label="Float Field" value="42.2" name="FloatValue" binding-path="floatValue" />
+    </engine:VisualElement>
+</engine:UXML>
